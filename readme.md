@@ -39,3 +39,9 @@
 await app.listen(":1024");
 //addEventListener("fetch", app.fetchEventHandler());
 ```
+
+- 启动方式
+
+```shell
+deno run --allow-net main.js
+```
