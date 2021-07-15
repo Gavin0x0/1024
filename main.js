@@ -44,5 +44,5 @@ router.get("/", (ctx) => {
 });
 
 app.use(router.routes());
-await app.listen(":80");
-//addEventListener("fetch", app.fetchEventHandler());
+//await app.listen(":80");
+addEventListener("fetch", app.fetchEventHandler());

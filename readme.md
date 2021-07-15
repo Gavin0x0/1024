@@ -26,3 +26,8 @@
 - 游戏规则：抓住鬼畜的数字或运算符，组成数学表达式，使其运算结果等于1024即可胜利
 - 分数计算规则：你猜
 - ![image.png](https://tva1.sinaimg.cn/large/007e6d0Xgy1gshy37zqdgj62e81iuhdt02.jpg)
+
+## 项目部署
+
+- 一个比较懒人的方式就是把html文件压缩到一行，塞进js文件交给[deno deploy](https://dash.deno.com/)部署
+- 他提供免费服务器，还带域名，美滋滋
