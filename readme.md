@@ -31,7 +31,7 @@
 
 - 一个比较懒人的方式就是把html文件压缩到一行，塞进js文件交给[deno deploy](https://dash.deno.com/)部署
 - 他提供免费服务器，还带域名，美滋滋
-- 经群大佬的指点，原来deno.dev的部署是以serverless worker的形式部署的（类似cloudflare worker），是可能分布式部署，导致不同的人请求不同的实例，内存不共享。
+- 经群大佬的指点，原来deno.dev的部署是以serverless worker的形式部署的（类似cloudflare worker），可能是分布式部署，导致不同的人请求不同的实例，内存不共享。
 - 所以，最终还得部署在自己的服务器上 🥲
 - 修改`main.js`
 
